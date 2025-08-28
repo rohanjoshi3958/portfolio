@@ -1,22 +1,38 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="portfolio-container">
+          <h1 className="name">Rohan Joshi</h1>       
+          <div className="external-link-section">
+            <h2>Check out my work:</h2>
+            <div className="boxes-container">
+              <a 
+                href="https://master.doakib682bbkv.amplifyapp.com/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="external-link"
+              >
+                <div className="link-content">
+                  <img 
+                    src="/MBTAss.png" 
+                    alt="MBTA Project Preview" 
+                    className="project-image"
+                  />
+                  <span className="link-text">MBTA station locator</span>
+                </div>
+              </a>
+              
+              <div className="work-in-progress-box">
+                <h3>Work in Progress</h3>
+                <p>More exciting projects coming soon!</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </header>
     </div>
   );
