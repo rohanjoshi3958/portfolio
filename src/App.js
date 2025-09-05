@@ -32,7 +32,7 @@ function App() {
                     alt="Future letter generator" 
                     className="project-image"
                   />
-                  <span className="link-text">Future leter generator</span>
+                  <span className="link-text">Future letter generator</span>
                 </div>
             </div>
           </div>
