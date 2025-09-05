@@ -26,10 +26,14 @@ function App() {
                 </div>
               </a>
               
-              <div className="work-in-progress-box">
-                <h3>Work in Progress</h3>
-                <p>More exciting projects coming soon!</p>
-              </div>
+              <div className="link-content work-in-progress">
+                  <img 
+                    src="/letter.png" 
+                    alt="Future letter generator" 
+                    className="project-image"
+                  />
+                  <span className="link-text">Future leter generator</span>
+                </div>
             </div>
           </div>
         </div>
